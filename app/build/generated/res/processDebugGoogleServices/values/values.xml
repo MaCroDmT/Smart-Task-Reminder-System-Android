@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">648396074004</string>
+    <string name="google_api_key" translatable="false">AIzaSyDZRimjTnkupV-JssMx5vNLJLP6l1RJNjQ</string>
+    <string name="google_app_id" translatable="false">1:648396074004:android:2afde5b7932060941b4b01</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDZRimjTnkupV-JssMx5vNLJLP6l1RJNjQ</string>
+    <string name="google_storage_bucket" translatable="false">smart-task-reminder-a6617.firebasestorage.app</string>
+    <string name="project_id" translatable="false">smart-task-reminder-a6617</string>
+</resources>

@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_add_edit_user.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_edit_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_admin_analytics.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_admin_analytics.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_manager_list.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_manager_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_company_detail.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_company_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_task_detail.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_task_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\item_user.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_add_task.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\item_task.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_user_list.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_add_edit_manager.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_edit_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_task_list.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_task_list.xml"
+    },
+    {
+        "merged": "com.ssl.smarttaskreminder.app-mergeDebugResources-52:/layout/activity_add_edit_user.xml",
+        "source": "com.ssl.smarttaskreminder.app-main-55:/layout/activity_add_edit_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\item_company.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_company.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\item_manager.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\item_analytics_user.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_analytics_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_admin_dashboard.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.ssl.smarttaskreminder.app-mergeDebugResources-52:/layout/activity_add_edit_manager.xml",
+        "source": "com.ssl.smarttaskreminder.app-main-55:/layout/activity_add_edit_manager.xml"
+    },
+    {
+        "merged": "com.ssl.smarttaskreminder.app-mergeDebugResources-52:/layout/activity_add_admin.xml",
+        "source": "com.ssl.smarttaskreminder.app-main-55:/layout/activity_add_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_add_company.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_company.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_add_admin.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-mergeDebugResources-52:\\layout\\activity_super_admin_dashboard.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_super_admin_dashboard.xml"
+    }
+]

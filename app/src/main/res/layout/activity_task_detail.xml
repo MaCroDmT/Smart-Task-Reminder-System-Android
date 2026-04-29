@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/color_primary"
+        android:elevation="@dimen/header_elevation" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_md">
+
+            <!-- Task ID Badge -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_md"
+                app:cardCornerRadius="@dimen/radius_card"
+                app:cardElevation="@dimen/card_elevation"
+                app:cardBackgroundColor="@color/color_primary">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_md"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTaskId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_text_yellow_highlight"
+                            android:textSize="@dimen/text_sm"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvTaskName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_text_white"
+                            android:textSize="@dimen/text_xl"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvStatusBadge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_text_white"
+                        android:textSize="@dimen/text_xs"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/spacing_sm"
+                        android:paddingEnd="@dimen/spacing_sm"
+                        android:paddingTop="@dimen/spacing_xs"
+                        android:paddingBottom="@dimen/spacing_xs"
+                        android:background="@drawable/bg_button_success" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Details Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_md"
+                app:cardCornerRadius="@dimen/radius_card"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/spacing_md">
+
+                    <!-- Style No -->
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Style No." android:textColor="@color/color_text_muted"
+                        android:textSize="@dimen/text_sm" />
+                    <TextView android:id="@+id/tvStyleNo" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:textColor="@color/color_text_primary"
+                        android:textSize="@dimen/text_base" android:textStyle="bold"
+                        android:layout_marginBottom="@dimen/spacing_md" />
+
+                    <!-- Importance -->
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Importance" android:textColor="@color/color_text_muted"
+                        android:textSize="@dimen/text_sm" />
+                    <TextView android:id="@+id/tvImportance" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:textColor="@color/color_text_primary"
+                        android:textSize="@dimen/text_base" android:textStyle="bold"
+                        android:layout_marginBottom="@dimen/spacing_md" />
+
+                    <!-- Deadline -->
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Deadline" android:textColor="@color/color_text_muted"
+                        android:textSize="@dimen/text_sm" />
+                    <TextView android:id="@+id/tvDeadline" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:textColor="@color/color_text_primary"
+                        android:textSize="@dimen/text_base" android:textStyle="bold"
+                        android:layout_marginBottom="@dimen/spacing_md" />
+
+                    <!-- Details -->
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Work Details" android:textColor="@color/color_text_muted"
+                        android:textSize="@dimen/text_sm" />
+                    <TextView android:id="@+id/tvDetails" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:textColor="@color/color_text_secondary"
+                        android:textSize="@dimen/text_base"
+                        android:layout_marginBottom="@dimen/spacing_md" />
+
+                    <!-- Completed At (visible only when completed) -->
+                    <LinearLayout android:id="@+id/layoutCompletedInfo"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:visibility="gone">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Completed At" android:textColor="@color/color_text_muted"
+                            android:textSize="@dimen/text_sm" />
+                        <TextView android:id="@+id/tvCompletedAt" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:textColor="@color/color_success"
+                            android:textSize="@dimen/text_base" android:textStyle="bold"
+                            android:layout_marginBottom="@dimen/spacing_sm" />
+                        <TextView android:id="@+id/tvCompletionType" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:textColor="@color/color_text_secondary"
+                            android:textSize="@dimen/text_sm" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Action Buttons -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMarkComplete"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/btn_mark_complete"
+                android:layout_marginBottom="@dimen/spacing_sm"
+                style="@style/Widget.SSL.Button.Success"
+                android:visibility="gone" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLateCompletion"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/btn_late_completion"
+                android:layout_marginBottom="@dimen/spacing_sm"
+                style="@style/Widget.SSL.Button.Danger"
+                android:visibility="gone" />
+
+            <!-- Super Admin delete button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDelete"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:text="Delete Task (Super Admin)"
+                android:layout_marginBottom="@dimen/spacing_sm"
+                style="@style/Widget.SSL.Button.Danger"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

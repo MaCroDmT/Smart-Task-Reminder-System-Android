@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_background">#F1F5F9</color>
+    <color name="color_background_section">#F8FAFC</color>
+    <color name="color_border">#E2E8F0</color>
+    <color name="color_border_focus">#1D4ED8</color>
+    <color name="color_button_cancel">#E2E8F0</color>
+    <color name="color_button_cancel_text">#475569</color>
+    <color name="color_card_border">#E2E8F0</color>
+    <color name="color_danger">#DC2626</color>
+    <color name="color_danger_dark">#B91C1C</color>
+    <color name="color_danger_light">#FEE2E2</color>
+    <color name="color_divider">#E2E8F0</color>
+    <color name="color_importance_high">#DC2626</color>
+    <color name="color_importance_high_bg">#FEE2E2</color>
+    <color name="color_importance_low">#059669</color>
+    <color name="color_importance_low_bg">#D1FAE5</color>
+    <color name="color_importance_medium">#F59E0B</color>
+    <color name="color_importance_medium_bg">#FEF3C7</color>
+    <color name="color_notification_badge">#EF4444</color>
+    <color name="color_overlay">#80000000</color>
+    <color name="color_primary">#1E40AF</color>
+    <color name="color_primary_button">#1D4ED8</color>
+    <color name="color_primary_button_pressed">#1E40AF</color>
+    <color name="color_primary_dark">#1E3A8A</color>
+    <color name="color_primary_light">#3B82F6</color>
+    <color name="color_role_admin_bg">#1E40AF</color>
+    <color name="color_role_manager_bg">#0369A1</color>
+    <color name="color_role_superadmin_bg">#7C3AED</color>
+    <color name="color_role_user_bg">#374151</color>
+    <color name="color_status_completed">#059669</color>
+    <color name="color_status_completed_bg">#D1FAE5</color>
+    <color name="color_status_overdue">#DC2626</color>
+    <color name="color_status_overdue_bg">#FEE2E2</color>
+    <color name="color_status_pending">#64748B</color>
+    <color name="color_status_pending_bg">#F1F5F9</color>
+    <color name="color_success">#059669</color>
+    <color name="color_success_dark">#047857</color>
+    <color name="color_success_light">#D1FAE5</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_text_muted">#94A3B8</color>
+    <color name="color_text_on_primary">#FFFFFF</color>
+    <color name="color_text_primary">#0F172A</color>
+    <color name="color_text_secondary">#475569</color>
+    <color name="color_text_white">#FFFFFF</color>
+    <color name="color_text_yellow_highlight">#FDE68A</color>
+    <color name="color_warning">#F59E0B</color>
+    <color name="color_warning_dark">#D97706</color>
+    <color name="color_warning_light">#FEF3C7</color>
+    <dimen name="analytics_card_height">100dp</dimen>
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="button_padding_horizontal">24dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="header_elevation">4dp</dimen>
+    <dimen name="header_height">56dp</dimen>
+    <dimen name="icon_lg">32dp</dimen>
+    <dimen name="icon_md">24dp</dimen>
+    <dimen name="icon_sm">18dp</dimen>
+    <dimen name="input_height">52dp</dimen>
+    <dimen name="input_padding">14dp</dimen>
+    <dimen name="logo_size">80dp</dimen>
+    <dimen name="radius_badge">4dp</dimen>
+    <dimen name="radius_button">8dp</dimen>
+    <dimen name="radius_card">12dp</dimen>
+    <dimen name="radius_chip">20dp</dimen>
+    <dimen name="radius_input">8dp</dimen>
+    <dimen name="radius_modal">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="text_2xl">24sp</dimen>
+    <dimen name="text_3xl">28sp</dimen>
+    <dimen name="text_base">16sp</dimen>
+    <dimen name="text_lg">18sp</dimen>
+    <dimen name="text_sm">14sp</dimen>
+    <dimen name="text_xl">20sp</dimen>
+    <dimen name="text_xs">12sp</dimen>
+    <string name="app_name">Smart Task Reminder</string>
+    <string name="app_tagline">Sonia Group — Task Management Platform</string>
+    <string name="btn_add_admin">Add Admin</string>
+    <string name="btn_add_company">Add Company</string>
+    <string name="btn_add_manager">Add Manager</string>
+    <string name="btn_add_user">Add User</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_create_task">Create Task</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_late_completion">Late Completion</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_mark_complete">Mark as Completed</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_view_more">View More</string>
+    <string name="completion_late">Late</string>
+    <string name="completion_on_time">On-Time</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="error_email_empty">Email is required</string>
+    <string name="error_login_failed">Login failed. Check credentials.</string>
+    <string name="error_password_empty">Password is required</string>
+    <string name="gcm_defaultSenderId" translatable="false">648396074004</string>
+    <string name="google_api_key" translatable="false">AIzaSyDZRimjTnkupV-JssMx5vNLJLP6l1RJNjQ</string>
+    <string name="google_app_id" translatable="false">1:648396074004:android:2afde5b7932060941b4b01</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDZRimjTnkupV-JssMx5vNLJLP6l1RJNjQ</string>
+    <string name="google_storage_bucket" translatable="false">smart-task-reminder-a6617.firebasestorage.app</string>
+    <string name="hint_company_name">e.g. Zonron, Q-Tex</string>
+    <string name="hint_details">Describe the work to be done</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_email_field">Enter email address</string>
+    <string name="hint_name">Enter full name</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="hint_pick_date">Pick deadline date</string>
+    <string name="hint_search">Search by name or email…</string>
+    <string name="hint_slug">e.g. zonron, q-tex</string>
+    <string name="hint_style_no">e.g. ST-2024-001</string>
+    <string name="hint_task_name">Enter task name</string>
+    <string name="hint_temp_password">Temporary Password</string>
+    <string name="importance_high">High</string>
+    <string name="importance_low">Low</string>
+    <string name="importance_medium">Medium</string>
+    <string name="label_all_tasks">All Tasks</string>
+    <string name="label_analytics">Analytics</string>
+    <string name="label_assign_manager">Assign Manager</string>
+    <string name="label_assigned_to">Assigned To</string>
+    <string name="label_best_performers">Top 5 Best Performers</string>
+    <string name="label_companies">Companies</string>
+    <string name="label_company_analytics">Company Analytics</string>
+    <string name="label_company_name">Company Name</string>
+    <string name="label_company_slug">Company Slug</string>
+    <string name="label_completed">Completed</string>
+    <string name="label_completed_at">Completed At</string>
+    <string name="label_completion_rate">Completion Rate</string>
+    <string name="label_completion_type">Completion Type</string>
+    <string name="label_created_at">Created</string>
+    <string name="label_deadline">Deadline</string>
+    <string name="label_details">Work Details</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_email_field">Email</string>
+    <string name="label_importance">Importance</string>
+    <string name="label_industry">Industry (Optional)</string>
+    <string name="label_managers">Managers</string>
+    <string name="label_my_tasks">My Tasks</string>
+    <string name="label_name">Full Name</string>
+    <string name="label_overdue">Overdue</string>
+    <string name="label_password">Password</string>
+    <string name="label_pending">Pending</string>
+    <string name="label_platform_analytics">Platform Analytics</string>
+    <string name="label_search">Search</string>
+    <string name="label_status">Status</string>
+    <string name="label_style_no">Style No.</string>
+    <string name="label_task_name">Task Name</string>
+    <string name="label_team_tasks">Team Tasks</string>
+    <string name="label_temp_password">Temporary Password</string>
+    <string name="label_top_overdue_teams">Top 5 Overdue Teams</string>
+    <string name="label_total_companies">Total Companies</string>
+    <string name="label_total_tasks">Total Active Tasks</string>
+    <string name="label_total_users">Total Users</string>
+    <string name="label_users">Users</string>
+    <string name="label_worst_performers">Top 5 Needs Improvement</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_settings">Settings</string>
+    <string name="msg_confirm_complete">Mark this task as completed?</string>
+    <string name="msg_confirm_delete">Are you sure you want to delete this?</string>
+    <string name="msg_deleted_success">Deleted successfully!</string>
+    <string name="msg_error_generic">Something went wrong. Please try again.</string>
+    <string name="msg_loading">Loading…</string>
+    <string name="msg_logging_in">Logging in…</string>
+    <string name="msg_no_data">No data available</string>
+    <string name="msg_saved_success">Saved successfully!</string>
+    <string name="msg_task_completed">Task marked as completed!</string>
+    <string name="notif_channel_admin">Admin Alerts</string>
+    <string name="notif_channel_desc_admin">Overdue task summary for admins</string>
+    <string name="notif_channel_desc_tasks">Daily reminders for your pending tasks</string>
+    <string name="notif_channel_tasks">Task Reminders</string>
+    <string name="project_id" translatable="false">smart-task-reminder-a6617</string>
+    <string name="role_admin">Admin</string>
+    <string name="role_manager">Manager</string>
+    <string name="role_super_admin">Super Admin</string>
+    <string name="role_user">User</string>
+    <string name="status_active">Active</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_inactive">Inactive</string>
+    <string name="status_overdue">Overdue</string>
+    <string name="status_pending">Pending</string>
+    <style name="ShapeLarge" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeMedium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeSmall" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="TextAppearance.SSL.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textSize">@dimen/text_base</item>
+    </style>
+    <style name="TextAppearance.SSL.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/color_text_muted</item>
+        <item name="android:textSize">@dimen/text_sm</item>
+    </style>
+    <style name="TextAppearance.SSL.Header" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_xl</item>
+    </style>
+    <style name="TextAppearance.SSL.SectionTitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_lg</item>
+    </style>
+    <style name="Theme.SmartTaskReminder" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <item name="colorOnPrimary">@color/color_text_white</item>
+
+        
+        <item name="colorSecondary">@color/color_primary_light</item>
+        <item name="colorSecondaryVariant">@color/color_primary</item>
+        <item name="colorOnSecondary">@color/color_text_white</item>
+
+        
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_text_primary</item>
+        <item name="colorOnBackground">@color/color_text_primary</item>
+
+        
+        <item name="android:statusBarColor">@color/color_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        
+        <item name="android:fontFamily">sans-serif</item>
+
+        
+        <item name="shapeAppearanceSmallComponent">@style/ShapeSmall</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeMedium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeLarge</item>
+
+        
+        <item name="textInputStyle">@style/Widget.SSL.TextInputLayout</item>
+    </style>
+    <style name="Theme.SmartTaskReminder.Splash" parent="Theme.SmartTaskReminder">
+        <item name="android:windowBackground">@color/color_primary</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="Widget.SSL.Button.Cancel" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_border</item>
+        <item name="android:textColor">@color/color_button_cancel_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="backgroundTint">@color/color_button_cancel</item>
+    </style>
+    <style name="Widget.SSL.Button.Danger" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_danger</item>
+        <item name="android:textColor">@color/color_text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+        <item name="rippleColor">@color/color_danger_dark</item>
+    </style>
+    <style name="Widget.SSL.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_primary_button</item>
+        <item name="android:textColor">@color/color_text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+        <item name="rippleColor">@color/color_primary_dark</item>
+    </style>
+    <style name="Widget.SSL.Button.Success" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_success</item>
+        <item name="android:textColor">@color/color_text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+        <item name="rippleColor">@color/color_success_dark</item>
+    </style>
+    <style name="Widget.SSL.Button.Warning" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_warning</item>
+        <item name="android:textColor">@color/color_text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+    </style>
+    <style name="Widget.SSL.ListCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/radius_card</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/color_surface</item>
+    </style>
+    <style name="Widget.SSL.StatCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/radius_card</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/color_surface</item>
+        <item name="contentPaddingLeft">@dimen/card_padding</item>
+        <item name="contentPaddingRight">@dimen/card_padding</item>
+        <item name="contentPaddingTop">@dimen/card_padding</item>
+        <item name="contentPaddingBottom">@dimen/card_padding</item>
+    </style>
+    <style name="Widget.SSL.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/color_border</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/radius_input</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/radius_input</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/radius_input</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/radius_input</item>
+        <item name="hintTextColor">@color/color_text_muted</item>
+        <item name="boxBackgroundColor">@color/color_surface</item>
+    </style>
+    <style name="Widget.SSL.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/color_primary</item>
+        <item name="titleTextColor">@color/color_text_white</item>
+        <item name="subtitleTextColor">@color/color_text_yellow_highlight</item>
+        <item name="android:elevation">@dimen/header_elevation</item>
+    </style>
+</resources>

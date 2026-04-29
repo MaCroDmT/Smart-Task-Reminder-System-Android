@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============================================
+         SSL-SE-UI-001 Design System Color Tokens
+         Smart Task Reminder System
+         ============================================ -->
+
+    <!-- PRIMARY THEME — Primary Blue -->
+    <color name="color_primary">#1E40AF</color>
+    <color name="color_primary_dark">#1E3A8A</color>
+    <color name="color_primary_light">#3B82F6</color>
+    <color name="color_primary_button">#1D4ED8</color>
+    <color name="color_primary_button_pressed">#1E40AF</color>
+
+    <!-- BACKGROUND -->
+    <color name="color_background">#F1F5F9</color>
+    <color name="color_background_section">#F8FAFC</color>
+    <color name="color_surface">#FFFFFF</color>
+
+    <!-- SEMANTIC — Success -->
+    <color name="color_success">#059669</color>
+    <color name="color_success_dark">#047857</color>
+    <color name="color_success_light">#D1FAE5</color>
+
+    <!-- SEMANTIC — Warning -->
+    <color name="color_warning">#F59E0B</color>
+    <color name="color_warning_dark">#D97706</color>
+    <color name="color_warning_light">#FEF3C7</color>
+
+    <!-- SEMANTIC — Danger -->
+    <color name="color_danger">#DC2626</color>
+    <color name="color_danger_dark">#B91C1C</color>
+    <color name="color_danger_light">#FEE2E2</color>
+
+    <!-- SEMANTIC — Notification Badge -->
+    <color name="color_notification_badge">#EF4444</color>
+
+    <!-- TEXT -->
+    <color name="color_text_primary">#0F172A</color>
+    <color name="color_text_secondary">#475569</color>
+    <color name="color_text_muted">#94A3B8</color>
+    <color name="color_text_white">#FFFFFF</color>
+    <color name="color_text_on_primary">#FFFFFF</color>
+    <color name="color_text_yellow_highlight">#FDE68A</color>
+
+    <!-- BORDER / DIVIDER -->
+    <color name="color_border">#E2E8F0</color>
+    <color name="color_border_focus">#1D4ED8</color>
+    <color name="color_divider">#E2E8F0</color>
+
+    <!-- STATUS INDICATORS -->
+    <color name="color_status_pending">#64748B</color>
+    <color name="color_status_pending_bg">#F1F5F9</color>
+    <color name="color_status_overdue">#DC2626</color>
+    <color name="color_status_overdue_bg">#FEE2E2</color>
+    <color name="color_status_completed">#059669</color>
+    <color name="color_status_completed_bg">#D1FAE5</color>
+
+    <!-- IMPORTANCE BADGES -->
+    <color name="color_importance_high">#DC2626</color>
+    <color name="color_importance_high_bg">#FEE2E2</color>
+    <color name="color_importance_medium">#F59E0B</color>
+    <color name="color_importance_medium_bg">#FEF3C7</color>
+    <color name="color_importance_low">#059669</color>
+    <color name="color_importance_low_bg">#D1FAE5</color>
+
+    <!-- CARD / OVERLAY -->
+    <color name="color_overlay">#80000000</color>
+    <color name="color_card_border">#E2E8F0</color>
+
+    <!-- ROLE BADGE COLORS -->
+    <color name="color_role_superadmin_bg">#7C3AED</color>
+    <color name="color_role_admin_bg">#1E40AF</color>
+    <color name="color_role_manager_bg">#0369A1</color>
+    <color name="color_role_user_bg">#374151</color>
+
+    <!-- CANCEL BUTTON -->
+    <color name="color_button_cancel">#E2E8F0</color>
+    <color name="color_button_cancel_text">#475569</color>
+</resources>

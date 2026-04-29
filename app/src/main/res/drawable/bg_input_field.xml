@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Border radius 8dp for focus state — input field background -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_surface"/>
+            <stroke android:width="2dp" android:color="@color/color_border_focus"/>
+            <corners android:radius="@dimen/radius_input"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_surface"/>
+            <stroke android:width="1.5dp" android:color="@color/color_border"/>
+            <corners android:radius="@dimen/radius_input"/>
+        </shape>
+    </item>
+</selector>

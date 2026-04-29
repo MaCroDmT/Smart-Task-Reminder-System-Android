@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_item_manager.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_item_user.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_bg_dashboard_hero.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\bg_dashboard_hero.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_bg_badge_overdue.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\bg_badge_overdue.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_bg_button_success.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\bg_button_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_user_list.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_add_task.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_admin_analytics.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_admin_analytics.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_bg_input_field.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\bg_input_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_company_detail.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_company_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.ssl.smarttaskreminder.app-merged_res-53:/layout_activity_add_admin.xml.flat",
+        "source": "com.ssl.smarttaskreminder.app-main-55:/layout/activity_add_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_add_edit_user.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_edit_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_bg_badge_pending.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\bg_badge_pending.xml"
+    },
+    {
+        "merged": "com.ssl.smarttaskreminder.app-merged_res-53:/layout_activity_add_edit_user.xml.flat",
+        "source": "com.ssl.smarttaskreminder.app-main-55:/layout/activity_add_edit_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_item_company.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_company.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_bg_button_primary.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\bg_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_item_analytics_user.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_analytics_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_task_list.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_task_list.xml"
+    },
+    {
+        "merged": "com.ssl.smarttaskreminder.app-merged_res-53:/layout_activity_add_edit_manager.xml.flat",
+        "source": "com.ssl.smarttaskreminder.app-main-55:/layout/activity_add_edit_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_task_detail.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_task_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_bg_button_danger.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\bg_button_danger.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_item_task.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\item_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_super_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_super_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_manager_list.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_manager_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_bg_badge_completed.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\bg_badge_completed.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_add_company.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_company.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_ic_app_logo.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\ic_app_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_add_admin.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\drawable_bg_button_warning.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\drawable\\bg_button_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-merged_res-53:\\layout_activity_add_edit_manager.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.ssl.smarttaskreminder.app-main-55:\\layout\\activity_add_edit_manager.xml"
+    }
+]

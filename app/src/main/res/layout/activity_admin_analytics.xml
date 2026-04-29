@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height"
+            android:background="@color/color_primary"
+            android:elevation="@dimen/header_elevation" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/spacing_md"
+                android:paddingBottom="100dp">
+
+                <!-- Top Overdue Teams -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔴 Top 5 Overdue Teams"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/text_lg"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="@dimen/spacing_sm" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvOverdueTeams"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_marginBottom="@dimen/spacing_lg" />
+
+                <!-- Best Performers -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🟢 Top 5 Best Performers"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/text_lg"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="@dimen/spacing_sm" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvBestPerformers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_marginBottom="@dimen/spacing_lg" />
+
+                <!-- Dept Health Scores -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🏥 Departmental Health Scores"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/text_lg"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="@dimen/spacing_sm" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvDeptHealth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_marginBottom="@dimen/spacing_lg" />
+
+                <!-- Worst Performers -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🟡 Top 5 Needs Improvement"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/text_lg"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="@dimen/spacing_sm" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvWorstPerformers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_marginBottom="@dimen/spacing_lg" />
+
+                <!-- Importance Breakdown -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📊 Importance Breakdown"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/text_lg"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="@dimen/spacing_sm" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- High -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardHigh"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:layout_marginEnd="@dimen/spacing_xs"
+                        app:cardCornerRadius="@dimen/radius_card" app:cardElevation="@dimen/card_elevation"
+                        app:cardBackgroundColor="@color/color_importance_high_bg">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:orientation="vertical" android:padding="@dimen/spacing_md" android:gravity="center">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="HIGH" android:textColor="@color/color_importance_high"
+                                android:textSize="@dimen/text_sm" android:textStyle="bold" />
+                            <TextView android:id="@+id/tvHighPending" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="P: 0"
+                                android:textColor="@color/color_text_secondary" android:textSize="@dimen/text_xs" />
+                            <TextView android:id="@+id/tvHighOverdue" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="O: 0"
+                                android:textColor="@color/color_danger" android:textSize="@dimen/text_xs" />
+                            <TextView android:id="@+id/tvHighCompleted" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="C: 0"
+                                android:textColor="@color/color_success" android:textSize="@dimen/text_xs" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Medium -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardMedium"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:layout_marginStart="@dimen/spacing_xs"
+                        android:layout_marginEnd="@dimen/spacing_xs"
+                        app:cardCornerRadius="@dimen/radius_card" app:cardElevation="@dimen/card_elevation"
+                        app:cardBackgroundColor="@color/color_importance_medium_bg">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:orientation="vertical" android:padding="@dimen/spacing_md" android:gravity="center">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="MEDIUM" android:textColor="@color/color_importance_medium"
+                                android:textSize="@dimen/text_sm" android:textStyle="bold" />
+                            <TextView android:id="@+id/tvMediumPending" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="P: 0"
+                                android:textColor="@color/color_text_secondary" android:textSize="@dimen/text_xs" />
+                            <TextView android:id="@+id/tvMediumOverdue" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="O: 0"
+                                android:textColor="@color/color_danger" android:textSize="@dimen/text_xs" />
+                            <TextView android:id="@+id/tvMediumCompleted" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="C: 0"
+                                android:textColor="@color/color_success" android:textSize="@dimen/text_xs" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Low -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardLow"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:layout_marginStart="@dimen/spacing_xs"
+                        app:cardCornerRadius="@dimen/radius_card" app:cardElevation="@dimen/card_elevation"
+                        app:cardBackgroundColor="@color/color_importance_low_bg">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:orientation="vertical" android:padding="@dimen/spacing_md" android:gravity="center">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="LOW" android:textColor="@color/color_importance_low"
+                                android:textSize="@dimen/text_sm" android:textStyle="bold" />
+                            <TextView android:id="@+id/tvLowPending" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="P: 0"
+                                android:textColor="@color/color_text_secondary" android:textSize="@dimen/text_xs" />
+                            <TextView android:id="@+id/tvLowOverdue" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="O: 0"
+                                android:textColor="@color/color_danger" android:textSize="@dimen/text_xs" />
+                            <TextView android:id="@+id/tvLowCompleted" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="C: 0"
+                                android:textColor="@color/color_success" android:textSize="@dimen/text_xs" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/spacing_md"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fabGenerateReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:text="Generate PDF Report"
+        android:textColor="@color/color_text_white"
+        app:icon="@android:drawable/ic_menu_save"
+        app:iconTint="@color/color_text_white"
+        app:backgroundTint="@color/color_primary_button" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

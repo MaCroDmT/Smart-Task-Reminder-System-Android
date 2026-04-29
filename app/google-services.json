@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648396074004",
+    "project_id": "smart-task-reminder-a6617",
+    "storage_bucket": "smart-task-reminder-a6617.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648396074004:android:2afde5b7932060941b4b01",
+        "android_client_info": {
+          "package_name": "com.ssl.smarttaskreminder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZRimjTnkupV-JssMx5vNLJLP6l1RJNjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SSL-SE-UI-001 Reusable Component Styles -->
+
+    <!-- TEXT INPUT LAYOUT -->
+    <style name="Widget.SSL.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/color_border</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/radius_input</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/radius_input</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/radius_input</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/radius_input</item>
+        <item name="hintTextColor">@color/color_text_muted</item>
+        <item name="boxBackgroundColor">@color/color_surface</item>
+    </style>
+
+    <!-- PRIMARY BUTTON (Blue) -->
+    <style name="Widget.SSL.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_primary_button</item>
+        <item name="android:textColor">@color/color_text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+        <item name="rippleColor">@color/color_primary_dark</item>
+    </style>
+
+    <!-- SUCCESS BUTTON (Green) -->
+    <style name="Widget.SSL.Button.Success" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_success</item>
+        <item name="android:textColor">@color/color_text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+        <item name="rippleColor">@color/color_success_dark</item>
+    </style>
+
+    <!-- DANGER BUTTON (Red) -->
+    <style name="Widget.SSL.Button.Danger" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_danger</item>
+        <item name="android:textColor">@color/color_text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+        <item name="rippleColor">@color/color_danger_dark</item>
+    </style>
+
+    <!-- WARNING BUTTON (Orange) -->
+    <style name="Widget.SSL.Button.Warning" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_warning</item>
+        <item name="android:textColor">@color/color_text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+    </style>
+
+    <!-- CANCEL BUTTON (Light Gray) -->
+    <style name="Widget.SSL.Button.Cancel" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_border</item>
+        <item name="android:textColor">@color/color_button_cancel_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="cornerRadius">@dimen/radius_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="backgroundTint">@color/color_button_cancel</item>
+    </style>
+
+    <!-- STAT CARD (Dashboard summary cards) -->
+    <style name="Widget.SSL.StatCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/radius_card</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/color_surface</item>
+        <item name="contentPaddingLeft">@dimen/card_padding</item>
+        <item name="contentPaddingRight">@dimen/card_padding</item>
+        <item name="contentPaddingTop">@dimen/card_padding</item>
+        <item name="contentPaddingBottom">@dimen/card_padding</item>
+    </style>
+
+    <!-- LIST ITEM CARD -->
+    <style name="Widget.SSL.ListCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/radius_card</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/color_surface</item>
+    </style>
+
+    <!-- HEADER TEXT -->
+    <style name="TextAppearance.SSL.Header" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_xl</item>
+    </style>
+
+    <!-- SECTION TITLE -->
+    <style name="TextAppearance.SSL.SectionTitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_lg</item>
+    </style>
+
+    <!-- BODY TEXT -->
+    <style name="TextAppearance.SSL.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textSize">@dimen/text_base</item>
+    </style>
+
+    <!-- CAPTION TEXT -->
+    <style name="TextAppearance.SSL.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/color_text_muted</item>
+        <item name="android:textSize">@dimen/text_sm</item>
+    </style>
+
+    <!-- TOOLBAR TITLE -->
+    <style name="Widget.SSL.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/color_primary</item>
+        <item name="titleTextColor">@color/color_text_white</item>
+        <item name="subtitleTextColor">@color/color_text_yellow_highlight</item>
+        <item name="android:elevation">@dimen/header_elevation</item>
+    </style>
+
+</resources>
