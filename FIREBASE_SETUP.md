@@ -183,8 +183,8 @@ Click **Publish**.
 ### Option A: Using Firebase Console (Easiest)
 1. Firebase Console → Authentication → Users tab
 2. Click **Add user**
-3. Email: `prottoy.saha@soniagroup.com`
-4. Password: `prottoySSL`
+3. Email: ``
+4. Password: ``
 5. Click **Add user**
 6. ✅ Done — No Firestore document needed for Super Admin (identified by email)
 
@@ -231,8 +231,8 @@ Required indexes:
 
 1. Launch the app
 2. Login with:
-   - Email: `prottoy.saha@soniagroup.com`
-   - Password: `prottoySSL`
+   - Email: ``
+   - Password: ``
 3. You should see the **Super Admin Dashboard**
 4. Tap **+** to create your first company (e.g., "Zonron")
 5. Open the company → Add Admin for that company
