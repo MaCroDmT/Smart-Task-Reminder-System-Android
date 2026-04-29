@@ -7,7 +7,8 @@ Android-based smart task management application with hierarchical roles, deadlin
 ## 🚀 Features
 
 - Task creation with deadline & priority  
-- Automated reminders at 10:00 AM (FCM + WorkManager)  
+- Automated reminders at 10:00 AM by using FCM (User + WorkManager)
+- Automated Admin OverDue reminders at 11:00 AM by FCM  
 - Pending, Overdue, Completed task tracking  
 - Late completion & on-time completion handling  
 - Role-based system:
